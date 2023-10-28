@@ -40,7 +40,7 @@ let textt = document.getElementById("text");
 
 function addTodoList(){
     if(textt.value === ""){
-        alert("hello word")
+        alert("You Must Write Something")
     }
     else{
         let li = document.createElement('li');
